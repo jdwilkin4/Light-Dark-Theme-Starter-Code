@@ -1,8 +1,9 @@
-import { Homepage } from "./pages/Homepage";
-import { RickSanchezPage } from "./pages/RickSanchez";
-import { MortySmithPage } from "./pages/MortySmith";
-import { Routes, Route } from "react-router-dom";
-import "./App.scss";
+import React from 'react';
+import { Homepage } from './pages/Homepage';
+import { RickSanchezPage } from './pages/RickSanchez';
+import { MortySmithPage } from './pages/MortySmith';
+import { Routes, Route } from 'react-router-dom';
+import './App.scss';
 function App() {
   return (
     <Routes>

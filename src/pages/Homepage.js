@@ -1,5 +1,6 @@
-import { Button } from "../components/Button";
-import "../App.scss";
+import React from 'react';
+import { Button } from '../components/Button';
+import '../App.scss';
 
 export const Homepage = () => {
   return (
