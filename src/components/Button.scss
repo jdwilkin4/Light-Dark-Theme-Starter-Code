@@ -1,0 +1,20 @@
+@import "../styles/colors";
+
+.btn {
+  background-color: $purple100;
+  border: none;
+  border-radius: 40px;
+  color: $grey100;
+  display: block;
+  font-size: 1.2rem;
+  font-weight: 600;
+  width: 150px;
+  padding: 14px 20px;
+  text-align: center;
+  text-decoration: none;
+  margin: 20px auto;
+
+  &:hover {
+    background-color: $purple200;
+  }
+}
